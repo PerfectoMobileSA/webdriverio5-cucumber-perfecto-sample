@@ -11,7 +11,7 @@ This project is useful not only as an example of WebdriverIO v5 and integration 
 > npm run perfecto
 
 
-##Config Files
+## Config Files
 WebdriverIO uses configuration files to setup and execute tests in specific ways. The configuration is fully customizable, and different functions can be invoked before, during and after each test or test suite. 
 
 ### Host name and security token
@@ -35,7 +35,7 @@ Execute only scenarios with tags matching the expression in the tagExpression ke
 
 In wdio version 5.16.15 this key is a string. The key could be changed to array of string ( string[] ) in the next wdio versions.
 
-##Develop automation tests
+## Develop automation tests
 ### Using Cucumber JavaScript framework
 Tests are written in the Cucumber framework using the Gherkin Syntax. More about Gherkin & Cucumber can be found at [https://cucumber.io/docs/gherkin/reference/](https://cucumber.io/docs/gherkin/reference/)
 
@@ -58,7 +58,7 @@ For example, for the calc.page.js file, there are two locators files: /src/pageL
 
 ![](img/page_locators.png)
    
-##Reports
+## Reports
 After you run the scripts, you can access the results in the [Perfecto CI Dashboard view](https://developers.perfectomobile.com/display/PD/CI+Dashboard+view), as shown in the following image.
 ![](img/report1.png)
 In the [Single Test Report (STR)](https://developers.perfectomobile.com/pages/viewpage.action?pageId=31104900), view the test flow with individual steps, as shown in the following image.
