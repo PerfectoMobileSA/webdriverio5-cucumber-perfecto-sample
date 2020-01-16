@@ -1,0 +1,53 @@
+{
+  "name": "webdriverio5-cucumber-perfecto-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "perfecto": "wdio ./config/wdio.perfecto.conf.js"
+  },
+  "keywords": [
+    "selenium",
+    "appium",
+    "mobile",
+    "web",
+    "testing",
+    "webdriverjs",
+    "webdriver",
+    "automation",
+    "cucumber",
+    "perfecto"
+  ],
+  "author": "Eyal Yovel eyalyovel@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/cli": "^5.16.15",
+    "@wdio/cucumber-framework": "^5.16.15",
+    "@wdio/local-runner": "^5.16.15",
+    "@wdio/spec-reporter": "^5.16.11",
+    "@wdio/sync": "^5.16.15",
+    "chromedriver": "^79.0.0",
+    "wdio-chromedriver-service": "^5.0.2",
+    "perfecto-reporting": "^2.5.2",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "@babel/cli": "^7.2.3",
+    "@babel/plugin-proposal-export-default-from": "^7.5.2",
+    "@babel/preset-env": "^7.4.2",
+    "@babel/register": "^7.4.0",
+    "@babel/core": "^7.5.4",
+    "chai": "^4.2.0"
+  },
+  "babel": {
+    "presets": [
+      [
+        "env",
+        {
+          "targets": {
+            "node": "current"
+          }
+        }
+      ]
+    ]
+  }
+}
