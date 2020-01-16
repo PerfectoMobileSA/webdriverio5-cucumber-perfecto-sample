@@ -59,7 +59,10 @@ For example, for the calc.page.js file, there are two locators files: /src/pageL
 ![](img/page_locators.png)
    
 <h2> Reports </h2>
-After you run the scripts, you can access the results in the [Perfecto CI Dashboard view](https://developers.perfectomobile.com/display/PD/CI+Dashboard+view), as shown in the following image.
+After you run the scripts, you can access the results in the [Perfecto CI Dashboard view](https://developers.perfectomobile.com/display/PD/CI+Dashboard+view), as shown in the following image. 
+
 ![](img/report1.png)
+
 In the [Single Test Report (STR)](https://developers.perfectomobile.com/pages/viewpage.action?pageId=31104900), view the test flow with individual steps, as shown in the following image.
+
 ![](img/report2.png)
