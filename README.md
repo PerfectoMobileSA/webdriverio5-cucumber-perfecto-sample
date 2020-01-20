@@ -16,21 +16,21 @@ WebdriverIO uses configuration files to setup and execute tests in specific ways
 
 <h3> Host name and security token </h3>
 To integrate and to run your tests on Perfecto cloud, in the config/wdio.perfecto.conf.js file, add your [securityToken](https://developers.perfectomobile.com/display/PD/Generate+security+tokens) and perfecto host name
-![](img/config_file_host.png)
+<img src="img/config_file_host.png">
 
 <h3> Capabilities </h3>
 Define your Perfecto devices that will be used during the run. 
-For example: 
-![](img/config_file_capabilities.png)
+For example:
+<img src="img/config_file_capabilities.png">
 
 The scenarios will run on two devices - one samsung (android) device and one iOS device in parallel.
-![](img/calc_android_ios.png)
+<img src="img/calc_android_ios.png">
 
 You can read [here](https://developers.perfectomobile.com/display/PD/Define+capabilities) about the capability names you can use. 
 
 <h3> tags </h3>
 
-![](img/config_tags.png) 
+<img src="img/config_tags.png">
 Execute only scenarios with tags matching the expression in the tagExpression key in the cucumberOpts object. 
 
 In wdio version 5.16.15 this key is a string. The key could be changed to array of string ( string[] ) in the next wdio versions.
@@ -40,7 +40,7 @@ In wdio version 5.16.15 this key is a string. The key could be changed to array 
 Tests are written in the Cucumber framework using the Gherkin Syntax. More about Gherkin & Cucumber can be found at [https://cucumber.io/docs/gherkin/reference/](https://cucumber.io/docs/gherkin/reference/)
 
 Tests are place in *.feature files in the /src/features/ directory. A typical test will look similar to this:
-![](img/feature.png)
+<img src="img/feature.png">
 
 <h3> Page Object and Page Locators </h3>
 The page object pattern helps us to reduces the amount of duplicated code and if the UI changes, the fix need only be applied in one place. Instead of including our selectors (classes, id's, or xpath' etc.) in our step definitions, we instead place them in a `<pagename>.js` file where we can manage all these selectors,reusable functions and logic together. Your test file should only call the test methods.
@@ -55,14 +55,13 @@ During run time, the page object points to the correct page locater object accor
 Page locator name should be the same name as its page object end with `.page.loc.js`. 
 For example, for the calc.page.js file, there are two locators files: /src/pageLocators/android/calc.page.loc.js and /src/pageLocators/ios/calc.page.loc.js
 
-
-![](img/page_locators.png)
+<img src="img/page_locators.png">
    
 <h2> Reports </h2>
 After you run the scripts, you can access the results in the [Perfecto CI Dashboard view](https://developers.perfectomobile.com/display/PD/CI+Dashboard+view), as shown in the following image. 
 
-![](img/report1.png)
+<img src="img/report1.png">
 
 In the [Single Test Report (STR)](https://developers.perfectomobile.com/pages/viewpage.action?pageId=31104900), view the test flow with individual steps, as shown in the following image.
 
-![](img/report2.png)
+<img src="img/report2.png">
